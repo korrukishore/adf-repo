@@ -1,0 +1,13 @@
+{
+	"name": "DS_REST_ADLSGEN2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "DS_REST_ADLS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,15 @@
+{
+	"name": "rgdevcheronproject",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9504bda7-4336-4508-a156-d9f498358cdd",
+		"tenantId": "316cb78f-4d4a-4863-9d25-fcddd0c6b49c"
+	}
+}

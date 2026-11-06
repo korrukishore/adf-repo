@@ -1,0 +1,38 @@
+{
+	"name": "DS_REST_ADLSGEN",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_REST_ADLSGEN2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "sqlfile"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"BusinessEntityID": {
+					"type": "integer"
+				},
+				"OrganizationNode": {
+					"type": "string"
+				},
+				"OrganizationLevel": {
+					"type": "integer"
+				},
+				"LoginID": {
+					"type": "string"
+				},
+				"JobTitle": {
+					"type": "string"
+				}
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
